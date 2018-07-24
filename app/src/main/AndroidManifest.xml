@@ -9,15 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".searchViewTest.SearchActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".textSwitcherTest.TextSwitcherActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        </activity>
+        <activity android:name=".updateValTest.UpdateValueTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SearchActivity"
-            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

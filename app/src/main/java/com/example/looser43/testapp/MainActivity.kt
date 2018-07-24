@@ -1,14 +1,15 @@
 package com.example.looser43.testapp
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.AppCompatEditText
 import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import com.example.looser43.testapp.searchViewTest.SearchActivity
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
