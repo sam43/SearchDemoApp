@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".searchViewTest.SearchActivity"
             android:parentActivityName=".MainActivity" />
@@ -17,7 +17,8 @@
             android:name=".textSwitcherTest.TextSwitcherActivity"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
         </activity>
-        <activity android:name=".updateValTest.UpdateValueTestActivity">
+        <activity android:name=".updateValTest.UpdateValueTestActivity"></activity>
+        <activity android:name=".modalView.ModalActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
